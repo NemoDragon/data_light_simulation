@@ -1,8 +1,14 @@
-# n positions, n >= 1
+# n positions with lanterns covers shaped like cones, angle = [0, 90] and adds angles to measurements
 
-def gen_measurements(light_positions: list[tuple], light_candels: list[int]):
+import math
+
+def gen_measurements(light_positions: list[tuple], light_candels: list[int], light_angles: list[int]):
     if len(light_positions) != len(light_candels):
         raise ValueError('Lights positions and candels must have the same length')
+    if len(light_positions) != len(light_angles):
+        raise ValueError('Lights positions and angles must have the same length')
+    if any(light_angles) < 0 or any(light_angles) > 90:
+        raise ValueError('Lights angles must be between 0 and 90 degrees')
     positions = []
     luxes = []
     for i in range(10):
@@ -11,8 +17,13 @@ def gen_measurements(light_positions: list[tuple], light_candels: list[int]):
             positions.append([i * 10, j * 10, 0])
             for k in range(len(light_positions)):
                 x, y, z = light_positions[k]
+                angle = light_angles[k]
                 square_distance = (x - i * 10) ** 2 + (y - j * 10) ** 2 + z ** 2
-                lux += light_candels[k] / square_distance
+                square_radius = (z * math.tan(angle)) ** 2
+                square_ground_distance = square_distance - z ** 2
+                cos_angle = 1 - (square_ground_distance / square_distance) ** 2 if square_distance > 0 else 0
+                if square_ground_distance <= square_radius or angle == 90:
+                    lux += light_candels[k] * cos_angle / square_distance
             luxes.append(lux)
     return positions, luxes
 
@@ -40,8 +51,8 @@ def save_measurements_to_file(filename: str, positions: list[list[int]], luxes: 
 
 
 def main() -> None:
-    pos, lux = gen_measurements(light_positions=[(50, 50, 50), (10, 10, 10), (90, 90, 90)], light_candels=[1000, 1000, 1000])
-    save_measurements_to_file('measurements2.txt', pos, lux)
+    pos, lux = gen_measurements(light_positions=[(10, 10, 10)], light_candels=[1000], light_angles=[60])
+    save_measurements_to_file('measurements3.txt', pos, lux)
 
 
 if __name__ == '__main__':

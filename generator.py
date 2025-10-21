@@ -1,3 +1,5 @@
+# one position
+
 def gen_measurements(light_position: list[int], light_candels: int):
     positions = []
     luxes = []
