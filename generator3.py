@@ -18,11 +18,13 @@ def gen_measurements(light_positions: list[tuple], light_candels: list[int], lig
             for k in range(len(light_positions)):
                 x, y, z = light_positions[k]
                 angle = light_angles[k]
+                angle = math.radians(angle)
                 square_distance = (x - i * 10) ** 2 + (y - j * 10) ** 2 + z ** 2
                 square_radius = (z * math.tan(angle)) ** 2
                 square_ground_distance = square_distance - z ** 2
-                cos_angle = 1 - (square_ground_distance / square_distance) ** 2 if square_distance > 0 else 0
-                if square_ground_distance <= square_radius or angle == 90:
+                cos_angle = z / (square_distance ** 0.5) if square_distance > 0 else 0
+                print(cos_angle, square_ground_distance, square_radius)
+                if square_ground_distance <= square_radius or light_angles[k] == 90:
                     lux += light_candels[k] * cos_angle / square_distance
             luxes.append(lux)
     return positions, luxes
@@ -51,7 +53,7 @@ def save_measurements_to_file(filename: str, positions: list[list[int]], luxes: 
 
 
 def main() -> None:
-    pos, lux = gen_measurements(light_positions=[(10, 10, 10)], light_candels=[1000], light_angles=[60])
+    pos, lux = gen_measurements(light_positions=[(50, 50, 50)], light_candels=[1000], light_angles=[45])
     save_measurements_to_file('measurements3.txt', pos, lux)
 
 
