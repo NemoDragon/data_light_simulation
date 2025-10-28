@@ -13,19 +13,18 @@ def read_file(file_name: str):
 
 
 def main() -> None:
-    for i in range(11, 31):
-        fitness = read_file(f'results/genetic_algorithm_{i}.txt')
-        print(fitness)
+    fitness = read_file(f'results/ga_exp014_1.txt')
+    print(fitness)
 
-        fig = plt.figure()
-        ax = fig.add_subplot(1, 1, 1)
-        gen = [i for i in range(len(fitness))]
-        ax.plot(gen, fitness)
-        ax.set_xlabel("Generation")
-        ax.set_ylabel("Fitness")
-        # ax.set_yscale("log")
-        ax.set_title(f"Fitness function: GA with 1 position, run {i - 10} " if i < 21 else f"Fitness function: GA with 3 positions, run {i % 20} ")
-        plt.show()
+    fig = plt.figure()
+    ax = fig.add_subplot(1, 1, 1)
+    gen = [i for i in range(len(fitness))]
+    ax.plot(gen, fitness)
+    ax.set_xlabel("Generation")
+    ax.set_ylabel("Fitness")
+    # ax.set_yscale("log")
+    ax.set_title(f" Best individual fitness function value over generations: GA exp014")
+    plt.show()
 
 if __name__ == "__main__":
     main()

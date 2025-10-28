@@ -1,6 +1,7 @@
 # n positions with lanterns covers shaped like cones, angle = [0, 90] and adds angles to measurements
 
 import math
+import random
 
 def gen_measurements(light_positions: list[tuple], light_candels: list[int], light_angles: list[int]):
     if len(light_positions) != len(light_candels):
@@ -53,8 +54,10 @@ def save_measurements_to_file(filename: str, positions: list[list[int]], luxes: 
 
 
 def main() -> None:
-    pos, lux = gen_measurements(light_positions=[(50, 50, 50)], light_candels=[1000], light_angles=[45])
-    save_measurements_to_file('measurements3.txt', pos, lux)
+    x, y, z = random.randint(0, 100), random.randint(0, 100), random.randint(0, 100)
+    print(x, y, z)
+    pos, lux = gen_measurements(light_positions=[(50, 50, 1)], light_candels=[1000], light_angles=[90])
+    save_measurements_to_file('measurements/exp007.txt', pos, lux)
 
 
 if __name__ == '__main__':
