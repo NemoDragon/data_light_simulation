@@ -1,0 +1,912 @@
+----------------------------------------
+mutation_probability: 10
+crossover_probability: 70
+parent_ratio: 1
+tournament_size: 20
+population_size: 2000
+n_positions: 3
+dimensions: 3
+min: 0
+max: 100
+roulette_selection_used: false
+----------------------------------------
+Generation 0: Best fitness = 113.504
+Individual positions: [49 80 0 ] [80 27 53 ] [32 87 11 ] 
+Individual candel values: 0.583911 0.251015 0.473922 
+Generation 1: Best fitness = 39.4684
+Individual positions: [18 97 21 ] [6 3 43 ] [50 0 2 ] 
+Individual candel values: 0.872829 5365.15 0.918516 
+Generation 2: Best fitness = 34.952
+Individual positions: [84 50 59 ] [13 5 20 ] [32 47 2 ] 
+Individual candel values: 0.788018 1844.54 0.870693 
+Generation 3: Best fitness = 34.952
+Individual positions: [84 50 59 ] [13 5 20 ] [32 47 2 ] 
+Individual candel values: 0.788018 1844.54 0.870693 
+Generation 4: Best fitness = 31.8757
+Individual positions: [12 23 88 ] [3 5 26 ] [67 55 11 ] 
+Individual candel values: 4242.38 1844.54 0.673788 
+Generation 5: Best fitness = 23.6807
+Individual positions: [17 11 98 ] [8 11 19 ] [72 38 11 ] 
+Individual candel values: 914.335 2041.69 0.0809961 
+Generation 6: Best fitness = 23.6807
+Individual positions: [17 11 98 ] [8 11 19 ] [72 38 11 ] 
+Individual candel values: 914.335 2041.69 0.0809961 
+Generation 7: Best fitness = 33.1805
+Individual positions: [84 50 59 ] [13 15 20 ] [67 55 5 ] 
+Individual candel values: 0.788018 1844.54 0.379437 
+Generation 8: Best fitness = 33.1805
+Individual positions: [84 50 59 ] [13 15 20 ] [67 55 5 ] 
+Individual candel values: 0.788018 1844.54 0.379437 
+Generation 9: Best fitness = 31.0888
+Individual positions: [2 50 79 ] [3 1 23 ] [64 0 39 ] 
+Individual candel values: 0.800653 2682.28 0.965423 
+Generation 10: Best fitness = 30.6269
+Individual positions: [8 50 79 ] [3 5 33 ] [64 19 38 ] 
+Individual candel values: 8.08329 3758.96 0.870693 
+Generation 11: Best fitness = 26.5614
+Individual positions: [8 85 59 ] [1 0 25 ] [64 74 8 ] 
+Individual candel values: 4.36592 3758.96 0.673788 
+Generation 12: Best fitness = 26.5614
+Individual positions: [8 85 59 ] [1 0 25 ] [64 74 8 ] 
+Individual candel values: 4.36592 3758.96 0.673788 
+Generation 13: Best fitness = 26.2995
+Individual positions: [28 78 49 ] [1 1 23 ] [64 55 38 ] 
+Individual candel values: 12.1619 3328.04 0.463454 
+Generation 14: Best fitness = 25.9727
+Individual positions: [31 16 29 ] [3 1 25 ] [64 55 2 ] 
+Individual candel values: 0.788018 3328.04 0.918516 
+Generation 15: Best fitness = 25.7642
+Individual positions: [20 82 38 ] [1 1 25 ] [64 19 16 ] 
+Individual candel values: 2.25748 3534.96 0.870693 
+Generation 16: Best fitness = 24.781
+Individual positions: [44 76 95 ] [1 1 25 ] [79 61 2 ] 
+Individual candel values: 871.609 3328.04 0.379437 
+Generation 17: Best fitness = 22.7662
+Individual positions: [84 85 59 ] [1 1 25 ] [64 55 2 ] 
+Individual candel values: 766.625 3328.04 0.965423 
+Generation 18: Best fitness = 22.9054
+Individual positions: [84 78 59 ] [1 1 25 ] [64 55 2 ] 
+Individual candel values: 766.625 3328.04 0.918516 
+Generation 19: Best fitness = 22.8984
+Individual positions: [84 85 65 ] [1 1 25 ] [64 61 2 ] 
+Individual candel values: 871.609 3328.04 0.918516 
+Generation 20: Best fitness = 22.746
+Individual positions: [84 85 59 ] [1 1 25 ] [64 61 2 ] 
+Individual candel values: 766.625 3328.04 0.965423 
+Generation 21: Best fitness = 22.746
+Individual positions: [84 85 59 ] [1 1 25 ] [64 61 2 ] 
+Individual candel values: 766.625 3328.04 0.965423 
+Generation 22: Best fitness = 22.7384
+Individual positions: [87 85 59 ] [1 1 25 ] [64 61 2 ] 
+Individual candel values: 766.625 3328.04 0.918516 
+Generation 23: Best fitness = 22.7328
+Individual positions: [87 85 59 ] [1 1 25 ] [64 61 2 ] 
+Individual candel values: 766.625 3328.04 0.965423 
+Generation 24: Best fitness = 22.126
+Individual positions: [84 85 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 766.625 3328.04 0.918516 
+Generation 25: Best fitness = 22.0255
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 766.625 3327.15 0.965423 
+Generation 26: Best fitness = 22.0157
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 759.762 3327.15 0.965423 
+Generation 27: Best fitness = 22.0075
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 760.99 3325.75 0.965423 
+Generation 28: Best fitness = 22.006
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 759.762 3325.75 0.965423 
+Generation 29: Best fitness = 21.8264
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 759.762 3273.72 0.965423 
+Generation 30: Best fitness = 21.8228
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 754.54 3273.72 0.965423 
+Generation 31: Best fitness = 21.8228
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 754.54 3273.72 0.965423 
+Generation 32: Best fitness = 21.82
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 750.548 3273.72 0.965423 
+Generation 33: Best fitness = 21.82
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 750.548 3273.72 0.965423 
+Generation 34: Best fitness = 21.8198
+Individual positions: [87 89 59 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 750.548 3282.34 0.965423 
+Generation 35: Best fitness = 21.8044
+Individual positions: [87 89 58 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 744.775 3273.72 0.965423 
+Generation 36: Best fitness = 21.8044
+Individual positions: [87 89 58 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 744.775 3273.72 0.965423 
+Generation 37: Best fitness = 21.5982
+Individual positions: [78 75 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3276.01 0.965423 
+Generation 38: Best fitness = 21.5982
+Individual positions: [78 75 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3276.01 0.965423 
+Generation 39: Best fitness = 21.5982
+Individual positions: [78 75 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3276.01 0.965423 
+Generation 40: Best fitness = 21.5982
+Individual positions: [78 75 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3276.01 0.965423 
+Generation 41: Best fitness = 21.5982
+Individual positions: [78 75 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3276.01 0.965423 
+Generation 42: Best fitness = 21.5771
+Individual positions: [87 87 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3282.34 0.965423 
+Generation 43: Best fitness = 21.5771
+Individual positions: [87 87 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3282.34 0.965423 
+Generation 44: Best fitness = 21.5771
+Individual positions: [87 87 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3282.34 0.965423 
+Generation 45: Best fitness = 21.547
+Individual positions: [87 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3282.34 0.965423 
+Generation 46: Best fitness = 21.547
+Individual positions: [87 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3282.34 0.965423 
+Generation 47: Best fitness = 21.5153
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 533.769 3282.34 0.965423 
+Generation 48: Best fitness = 21.5028
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 526.765 3282.34 0.965423 
+Generation 49: Best fitness = 21.5028
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 526.765 3282.34 0.965423 
+Generation 50: Best fitness = 21.5028
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 526.765 3282.34 0.965423 
+Generation 51: Best fitness = 21.4965
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 521.302 3282.34 0.965423 
+Generation 52: Best fitness = 21.4948
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 518.818 3282.34 0.965423 
+Generation 53: Best fitness = 21.4919
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 521.302 3290.53 0.965423 
+Generation 54: Best fitness = 21.4919
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 521.302 3290.53 0.965423 
+Generation 55: Best fitness = 21.4919
+Individual positions: [85 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 521.302 3290.53 0.965423 
+Generation 56: Best fitness = 21.4722
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 519.201 3290.53 0.965423 
+Generation 57: Best fitness = 21.4674
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 517.102 3290.53 0.965423 
+Generation 58: Best fitness = 21.4674
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 517.102 3290.53 0.965423 
+Generation 59: Best fitness = 21.4674
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 517.102 3290.53 0.965423 
+Generation 60: Best fitness = 21.4674
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 517.102 3290.53 0.965423 
+Generation 61: Best fitness = 21.4674
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 517.102 3290.53 0.965423 
+Generation 62: Best fitness = 21.4673
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 517.102 3281.16 0.965423 
+Generation 63: Best fitness = 21.4629
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 514.804 3281.16 0.965423 
+Generation 64: Best fitness = 21.4629
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 514.804 3281.16 0.965423 
+Generation 65: Best fitness = 21.4462
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 505.512 3290.53 0.965423 
+Generation 66: Best fitness = 21.4462
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 505.512 3290.53 0.965423 
+Generation 67: Best fitness = 21.4462
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 505.512 3290.53 0.965423 
+Generation 68: Best fitness = 21.4451
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3290.53 0.965423 
+Generation 69: Best fitness = 21.4451
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3290.53 0.965423 
+Generation 70: Best fitness = 21.4451
+Individual positions: [82 84 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3290.53 0.965423 
+Generation 71: Best fitness = 21.4063
+Individual positions: [82 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3290.53 0.965423 
+Generation 72: Best fitness = 21.4063
+Individual positions: [82 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3290.53 0.965423 
+Generation 73: Best fitness = 21.3859
+Individual positions: [80 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3290.53 0.965423 
+Generation 74: Best fitness = 21.3859
+Individual positions: [80 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3290.53 0.965423 
+Generation 75: Best fitness = 21.385
+Individual positions: [80 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3288.59 0.965423 
+Generation 76: Best fitness = 21.3646
+Individual positions: [80 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 491.279 3290.53 0.965423 
+Generation 77: Best fitness = 21.3646
+Individual positions: [80 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 491.279 3290.53 0.965423 
+Generation 78: Best fitness = 21.3613
+Individual positions: [76 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 499.675 3263.34 0.965423 
+Generation 79: Best fitness = 21.3405
+Individual positions: [76 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 491.279 3263.34 0.965423 
+Generation 80: Best fitness = 21.3404
+Individual positions: [76 79 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 491.279 3261.34 0.965423 
+Generation 81: Best fitness = 21.3177
+Individual positions: [76 76 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 491.279 3263.34 0.965423 
+Generation 82: Best fitness = 21.3177
+Individual positions: [76 76 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 491.279 3263.34 0.965423 
+Generation 83: Best fitness = 21.3054
+Individual positions: [76 76 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 484.541 3262.18 0.965423 
+Generation 84: Best fitness = 21.3016
+Individual positions: [76 76 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 482.548 3261.34 0.965423 
+Generation 85: Best fitness = 21.3012
+Individual positions: [76 76 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 482.548 3260.04 0.965423 
+Generation 86: Best fitness = 21.2937
+Individual positions: [76 76 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 475.164 3260.04 0.965423 
+Generation 87: Best fitness = 21.2937
+Individual positions: [76 76 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 475.164 3260.04 0.965423 
+Generation 88: Best fitness = 21.2936
+Individual positions: [76 76 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 475.164 3263.34 0.965423 
+Generation 89: Best fitness = 21.2891
+Individual positions: [76 75 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 475.164 3260.04 0.965423 
+Generation 90: Best fitness = 21.2891
+Individual positions: [76 75 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 475.164 3260.04 0.965423 
+Generation 91: Best fitness = 21.289
+Individual positions: [76 75 47 ] [1 1 24 ] [64 61 2 ] 
+Individual candel values: 472.94 3266.16 0.965423 
+Generation 92: Best fitness = 21.0717
+Individual positions: [76 76 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 93: Best fitness = 21.0717
+Individual positions: [76 76 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 94: Best fitness = 21.0717
+Individual positions: [76 76 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 95: Best fitness = 21.0717
+Individual positions: [76 76 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 96: Best fitness = 21.0717
+Individual positions: [76 76 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 97: Best fitness = 21.0717
+Individual positions: [76 76 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 98: Best fitness = 21.0717
+Individual positions: [76 76 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 99: Best fitness = 21.0717
+Individual positions: [76 76 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 100: Best fitness = 21.06
+Individual positions: [76 75 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 101: Best fitness = 21.06
+Individual positions: [76 75 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 102: Best fitness = 21.06
+Individual positions: [76 75 47 ] [2 5 24 ] [64 61 2 ] 
+Individual candel values: 475.164 2840.36 0.965423 
+Generation 103: Best fitness = 20.7397
+Individual positions: [76 75 47 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 473.227 2840.36 0.965423 
+Generation 104: Best fitness = 20.7182
+Individual positions: [76 75 47 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 475.828 2840.36 0.965423 
+Generation 105: Best fitness = 20.6116
+Individual positions: [76 75 40 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 465.521 2837.09 0.965423 
+Generation 106: Best fitness = 20.6116
+Individual positions: [76 75 40 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 465.521 2837.09 0.965423 
+Generation 107: Best fitness = 20.547
+Individual positions: [76 75 40 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 457.573 2837.99 0.965423 
+Generation 108: Best fitness = 20.5452
+Individual positions: [76 75 40 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 457.573 2837.09 0.965423 
+Generation 109: Best fitness = 20.529
+Individual positions: [76 75 40 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 457.573 2829.03 0.965423 
+Generation 110: Best fitness = 20.4245
+Individual positions: [76 75 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 457.573 2837.09 0.965423 
+Generation 111: Best fitness = 20.4245
+Individual positions: [76 75 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 457.573 2837.09 0.965423 
+Generation 112: Best fitness = 20.4245
+Individual positions: [76 75 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 457.573 2837.09 0.965423 
+Generation 113: Best fitness = 20.4235
+Individual positions: [76 75 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 457.573 2839.6 0.965423 
+Generation 114: Best fitness = 20.4172
+Individual positions: [76 75 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 463.634 2839.6 0.965423 
+Generation 115: Best fitness = 20.4172
+Individual positions: [76 75 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 463.634 2839.6 0.965423 
+Generation 116: Best fitness = 20.3715
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 463.634 2839.6 0.965423 
+Generation 117: Best fitness = 20.3715
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 463.634 2839.6 0.965423 
+Generation 118: Best fitness = 20.3715
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 463.634 2839.6 0.965423 
+Generation 119: Best fitness = 20.3628
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 467.409 2839.6 0.965423 
+Generation 120: Best fitness = 20.362
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 467.409 2839.03 0.965423 
+Generation 121: Best fitness = 20.3598
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 470.446 2839.6 0.965423 
+Generation 122: Best fitness = 20.3598
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 470.446 2839.6 0.965423 
+Generation 123: Best fitness = 20.3582
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 470.532 2839.03 0.965423 
+Generation 124: Best fitness = 20.3578
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 471.398 2839.03 0.965423 
+Generation 125: Best fitness = 20.3567
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 476.891 2832.47 0.965423 
+Generation 126: Best fitness = 20.3566
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 471.398 2835.41 0.965423 
+Generation 127: Best fitness = 20.3558
+Individual positions: [76 72 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.135 2832.47 0.965423 
+Generation 128: Best fitness = 20.3516
+Individual positions: [76 71 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.455 2832.47 0.965423 
+Generation 129: Best fitness = 20.3516
+Individual positions: [76 71 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.455 2832.47 0.965423 
+Generation 130: Best fitness = 20.3515
+Individual positions: [76 71 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.994 2832.47 0.965423 
+Generation 131: Best fitness = 20.3515
+Individual positions: [76 71 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.994 2832.47 0.965423 
+Generation 132: Best fitness = 20.3515
+Individual positions: [76 71 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.994 2832.47 0.965423 
+Generation 133: Best fitness = 20.3515
+Individual positions: [76 71 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.994 2832.47 0.965423 
+Generation 134: Best fitness = 20.3375
+Individual positions: [75 71 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.994 2832.47 0.965423 
+Generation 135: Best fitness = 20.3345
+Individual positions: [73 71 44 ] [3 5 24 ] [64 61 2 ] 
+Individual candel values: 472.994 2832.47 0.965423 
+Generation 136: Best fitness = 20.3051
+Individual positions: [76 71 44 ] [3 5 22 ] [64 61 2 ] 
+Individual candel values: 472.994 2832.47 0.965423 
+Generation 137: Best fitness = 20.2821
+Individual positions: [75 71 44 ] [3 5 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2832.47 0.965423 
+Generation 138: Best fitness = 20.2256
+Individual positions: [76 71 44 ] [3 5 22 ] [64 61 2 ] 
+Individual candel values: 472.143 2827.62 0.965423 
+Generation 139: Best fitness = 19.8378
+Individual positions: [75 71 44 ] [3 5 23 ] [64 61 2 ] 
+Individual candel values: 466.289 2832.47 0.965423 
+Generation 140: Best fitness = 20.1002
+Individual positions: [76 71 44 ] [3 5 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2820.45 0.965423 
+Generation 141: Best fitness = 19.5261
+Individual positions: [76 71 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2828.27 0.965423 
+Generation 142: Best fitness = 19.5261
+Individual positions: [76 71 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2828.27 0.965423 
+Generation 143: Best fitness = 19.5261
+Individual positions: [76 71 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2828.27 0.965423 
+Generation 144: Best fitness = 19.4062
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2819.04 0.965423 
+Generation 145: Best fitness = 19.4062
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2819.04 0.965423 
+Generation 146: Best fitness = 19.3518
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2813.88 0.965423 
+Generation 147: Best fitness = 19.3518
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 466.289 2813.88 0.965423 
+Generation 148: Best fitness = 19.3487
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.674 2813.97 0.965423 
+Generation 149: Best fitness = 19.3359
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 472.715 2813.88 0.965423 
+Generation 150: Best fitness = 19.3359
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 472.715 2813.88 0.965423 
+Generation 151: Best fitness = 19.3286
+Individual positions: [76 75 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.674 2810.55 0.965423 
+Generation 152: Best fitness = 19.2468
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.674 2804.33 0.965423 
+Generation 153: Best fitness = 19.2088
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 469.207 2801.18 0.965423 
+Generation 154: Best fitness = 19.1993
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 472.715 2801.18 0.965423 
+Generation 155: Best fitness = 19.1867
+Individual positions: [76 72 42 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.674 2801.18 0.965423 
+Generation 156: Best fitness = 19.1867
+Individual positions: [76 72 42 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.674 2801.18 0.965423 
+Generation 157: Best fitness = 19.1319
+Individual positions: [76 72 44 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 472.715 2794.83 0.965423 
+Generation 158: Best fitness = 19.0677
+Individual positions: [76 72 42 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 469.207 2790.85 0.965423 
+Generation 159: Best fitness = 19.0677
+Individual positions: [76 72 42 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 469.207 2790.85 0.965423 
+Generation 160: Best fitness = 19.0677
+Individual positions: [76 72 42 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 469.207 2790.85 0.965423 
+Generation 161: Best fitness = 19.0305
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.674 2790.44 0.965423 
+Generation 162: Best fitness = 19.0265
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2790.44 0.965423 
+Generation 163: Best fitness = 18.996
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 464.375 2787.66 0.965423 
+Generation 164: Best fitness = 18.9957
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2787.66 0.965423 
+Generation 165: Best fitness = 18.9863
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2786.82 0.965423 
+Generation 166: Best fitness = 18.9611
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2784.55 0.965423 
+Generation 167: Best fitness = 18.9293
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2781.28 0.965423 
+Generation 168: Best fitness = 18.9293
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2781.28 0.965423 
+Generation 169: Best fitness = 18.9293
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2781.28 0.965423 
+Generation 170: Best fitness = 18.9131
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2779.55 0.965423 
+Generation 171: Best fitness = 18.9131
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2779.55 0.965423 
+Generation 172: Best fitness = 18.8936
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 463.203 2777.47 0.965423 
+Generation 173: Best fitness = 18.891
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 465.289 2777.47 0.965423 
+Generation 174: Best fitness = 18.891
+Individual positions: [76 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 465.289 2777.47 0.965423 
+Generation 175: Best fitness = 18.8673
+Individual positions: [71 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2777.47 0.965423 
+Generation 176: Best fitness = 18.8673
+Individual positions: [71 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2777.47 0.965423 
+Generation 177: Best fitness = 18.8632
+Individual positions: [74 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 465.289 2777.47 0.965423 
+Generation 178: Best fitness = 18.8533
+Individual positions: [73 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2777.47 0.965423 
+Generation 179: Best fitness = 18.8533
+Individual positions: [73 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2777.47 0.965423 
+Generation 180: Best fitness = 18.7698
+Individual positions: [73 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.658 2768.93 0.965423 
+Generation 181: Best fitness = 18.7697
+Individual positions: [73 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2768.93 0.965423 
+Generation 182: Best fitness = 18.7697
+Individual positions: [73 72 43 ] [3 4 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2768.93 0.965423 
+Generation 183: Best fitness = 18.5392
+Individual positions: [73 72 43 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2768.93 0.965423 
+Generation 184: Best fitness = 18.5299
+Individual positions: [73 72 43 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2759.69 0.965423 
+Generation 185: Best fitness = 18.454
+Individual positions: [73 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2759.69 0.965423 
+Generation 186: Best fitness = 18.454
+Individual positions: [73 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2759.69 0.965423 
+Generation 187: Best fitness = 18.447
+Individual positions: [73 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 467.938 2756 0.965423 
+Generation 188: Best fitness = 18.4442
+Individual positions: [73 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2756 0.965423 
+Generation 189: Best fitness = 18.4365
+Individual positions: [73 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2752.72 0.965423 
+Generation 190: Best fitness = 18.4354
+Individual positions: [73 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2752.21 0.965423 
+Generation 191: Best fitness = 18.4354
+Individual positions: [73 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2752.21 0.965423 
+Generation 192: Best fitness = 18.4224
+Individual positions: [73 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2745.87 0.965423 
+Generation 193: Best fitness = 18.4124
+Individual positions: [70 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2752.21 0.965423 
+Generation 194: Best fitness = 18.4124
+Individual positions: [70 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2752.21 0.965423 
+Generation 195: Best fitness = 18.3895
+Individual positions: [70 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2744.5 0.965423 
+Generation 196: Best fitness = 18.3895
+Individual positions: [70 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 471.516 2744.5 0.965423 
+Generation 197: Best fitness = 18.3705
+Individual positions: [70 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2737.78 0.965423 
+Generation 198: Best fitness = 18.3685
+Individual positions: [70 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2737.07 0.965423 
+Generation 199: Best fitness = 18.3685
+Individual positions: [70 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2737.07 0.965423 
+Generation 200: Best fitness = 18.3685
+Individual positions: [70 72 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2737.07 0.965423 
+Generation 201: Best fitness = 18.3607
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2737.07 0.965423 
+Generation 202: Best fitness = 18.3607
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2737.07 0.965423 
+Generation 203: Best fitness = 18.3607
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2737.07 0.965423 
+Generation 204: Best fitness = 18.3607
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2737.07 0.965423 
+Generation 205: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 206: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 207: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 208: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 209: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 210: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 211: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 212: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 213: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 214: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 215: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 216: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 217: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 218: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 219: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 220: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 221: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 222: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 223: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 224: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 225: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 226: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 227: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 228: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 229: Best fitness = 18.3591
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2735.38 0.965423 
+Generation 230: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 231: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 232: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 233: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 234: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 235: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 236: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 237: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 238: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 239: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 240: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 241: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 242: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 243: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 244: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 245: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 246: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 247: Best fitness = 18.3583
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.355 2736.31 0.965423 
+Generation 248: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 249: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 250: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 251: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 252: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 253: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 254: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 255: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 256: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.292 2736.31 0.965423 
+Generation 257: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 258: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 259: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 260: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 261: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 262: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 263: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 264: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 265: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 266: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 267: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 268: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 269: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 270: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 271: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 272: Best fitness = 18.3582
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.271 2736.31 0.965423 
+Generation 273: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 274: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 275: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 276: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 277: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 278: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 279: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 280: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 281: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 282: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 283: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 284: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 285: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 286: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 287: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 288: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 289: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 290: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 291: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 292: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 293: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 294: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 295: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 296: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 297: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 298: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
+Generation 299: Best fitness = 18.3581
+Individual positions: [70 71 42 ] [3 3 22 ] [64 61 2 ] 
+Individual candel values: 475.101 2736.31 0.965423 
