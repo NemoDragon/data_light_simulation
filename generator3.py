@@ -55,9 +55,12 @@ def save_measurements_to_file(filename: str, positions: list[list[int]], luxes: 
 
 def main() -> None:
     x, y, z = random.randint(0, 100), random.randint(0, 100), random.randint(0, 100)
+    I = random.sample(range(1000, 20000), 6)
+    a = random.sample(range(1, 91), 6)
     print(x, y, z)
-    pos, lux = gen_measurements(light_positions=[(50, 50, 1)], light_candels=[1000], light_angles=[90])
-    save_measurements_to_file('measurements/exp007.txt', pos, lux)
+    print(I, a)
+    pos, lux = gen_measurements(light_positions=[(x, y, z), (x, z, y), (y, x, z), (y, z, x), (z, x, y), (z, y, x)], light_candels=I, light_angles=a)
+    save_measurements_to_file('measurements/exp015.txt', pos, lux)
 
 
 if __name__ == '__main__':
