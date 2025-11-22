@@ -1,0 +1,1213 @@
+----------------------------------------
+mutation_probability: 10
+crossover_probability: 70
+parent_ratio: 1
+tournament_size: 20
+population_size: 2000
+n_positions: 20
+dimensions: 3
+min: 0
+max: 100
+roulette_selection_used: false
+individual_angle_included: true
+----------------------------------------
+Generation 0: Best fitness = 51.9044
+Individual positions: [50 67 11 ] [31 58 50 ] [2 67 54 ] [66 6 8 ] [20 20 1 ] [15 69 63 ] [19 59 4 ] [66 61 66 ] [20 78 14 ] [17 6 94 ] [71 48 56 ] [71 95 24 ] [67 97 16 ] [6 37 77 ] [2 12 13 ] [20 91 66 ] [38 1 35 ] [53 16 83 ] 
+Individual candel values: 0.978851 0.746452 0.466781 0.516953 0.390637 0.223731 0.281411 0.179144 0.54854 0.927946 0.801263 0.224342 0.0929899 0.771966 0.284097 0.389325 0.782891 0.0716269 
+Individual angle values: 25 61 58 63 74 62 59 64 21 45 70 50 54 0 41 74 89 7 
+Generation 1: Best fitness = 16.0314
+Individual positions: [38 93 89 ] [76 65 72 ] [22 83 64 ] 
+Individual candel values: 6496.78 4.52748 0.526353 
+Individual angle values: 77 63 24 
+Generation 2: Best fitness = 11.3414
+Individual positions: [33 59 0 ] [17 50 25 ] [63 30 87 ] [69 33 58 ] [33 59 8 ] [17 87 25 ] [29 63 47 ] [8 87 25 ] 
+Individual candel values: 0.124241 0.620411 5452.44 0.970305 0.910276 0.970305 0.52736 0.910276 
+Individual angle values: 18 82 67 23 18 18 20 61 
+Generation 3: Best fitness = 10.7829
+Individual positions: [50 84 84 ] [52 50 84 ] 
+Individual candel values: 0.488968 5948.06 
+Individual angle values: 17 49 
+Generation 4: Best fitness = 7.78011
+Individual positions: [52 52 84 ] [52 45 84 ] [36 39 45 ] 
+Individual candel values: 0.154698 5452.44 0.827509 
+Individual angle values: 39 57 46 
+Generation 5: Best fitness = 7.78011
+Individual positions: [52 52 84 ] [52 45 84 ] [36 39 45 ] 
+Individual candel values: 0.154698 5452.44 0.827509 
+Individual angle values: 39 57 46 
+Generation 6: Best fitness = 7.77274
+Individual positions: [55 33 68 ] [52 45 84 ] 
+Individual candel values: 5992.61 5452.44 
+Individual angle values: 2 57 
+Generation 7: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 8: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 9: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 10: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 11: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 12: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 13: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 14: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 15: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 16: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 17: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 18: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 19: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 20: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 21: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 22: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 23: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 24: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 25: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 26: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 27: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 28: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 29: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 30: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 31: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 32: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 33: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 34: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 35: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 36: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 37: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 38: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 39: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 40: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 41: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 42: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 43: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 44: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 45: Best fitness = 6.59525
+Individual positions: [55 55 55 ] [39 39 55 ] 
+Individual candel values: 1264.69 1264.69 
+Individual angle values: 90 90 
+Generation 46: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 47: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 48: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 49: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 50: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 51: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 52: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 53: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 54: Best fitness = 6.33013
+Individual positions: [55 55 55 ] [55 55 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 55: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 56: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 57: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 58: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 59: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 60: Best fitness = 5.20856
+Individual positions: [75 74 92 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 3969.24 1264.69 528.581 
+Individual angle values: 62 90 36 
+Generation 61: Best fitness = 5.20856
+Individual positions: [75 74 92 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 3969.24 1264.69 528.581 
+Individual angle values: 62 90 36 
+Generation 62: Best fitness = 5.20856
+Individual positions: [75 74 92 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 3969.24 1264.69 528.581 
+Individual angle values: 62 90 36 
+Generation 63: Best fitness = 5.20856
+Individual positions: [75 74 92 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 3969.24 1264.69 528.581 
+Individual angle values: 62 90 36 
+Generation 64: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 65: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 66: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 67: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 68: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 69: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 70: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 71: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 72: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 73: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 74: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 75: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 76: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 77: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 78: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 79: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 80: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 81: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 82: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 83: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 84: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 85: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 86: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 87: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 88: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 89: Best fitness = 5.30594
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1264.69 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 90: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 91: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 92: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 93: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 94: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 95: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 96: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 97: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 98: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 99: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 100: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 101: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 102: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 103: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 104: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 105: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 106: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 107: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 108: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 109: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 110: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 111: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 112: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 113: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 114: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 115: Best fitness = 5.0195
+Individual positions: [55 55 55 ] [39 39 55 ] [10 10 34 ] 
+Individual candel values: 1264.69 1264.69 168.462 
+Individual angle values: 90 90 88 
+Generation 116: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 117: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 118: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 119: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 120: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 121: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 122: Best fitness = 4.73398
+Individual positions: [55 55 55 ] [23 36 92 ] [9 3 74 ] 
+Individual candel values: 1926.33 1255.36 528.581 
+Individual angle values: 90 68 36 
+Generation 123: Best fitness = 4.73398
+Individual positions: [55 55 55 ] [23 36 92 ] [9 3 74 ] 
+Individual candel values: 1926.33 1255.36 528.581 
+Individual angle values: 90 68 36 
+Generation 124: Best fitness = 4.73398
+Individual positions: [55 55 55 ] [23 36 92 ] [9 3 74 ] 
+Individual candel values: 1926.33 1255.36 528.581 
+Individual angle values: 90 68 36 
+Generation 125: Best fitness = 4.73398
+Individual positions: [55 55 55 ] [23 36 92 ] [9 3 74 ] 
+Individual candel values: 1926.33 1255.36 528.581 
+Individual angle values: 90 68 36 
+Generation 126: Best fitness = 4.73398
+Individual positions: [55 55 55 ] [23 36 92 ] [9 3 74 ] 
+Individual candel values: 1926.33 1255.36 528.581 
+Individual angle values: 90 68 36 
+Generation 127: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 128: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 73 90 36 
+Generation 129: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 130: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 131: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 132: Best fitness = 5.30497
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] 
+Individual candel values: 1266.34 1264.69 528.581 
+Individual angle values: 90 90 36 
+Generation 133: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 134: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 135: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 136: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 137: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 138: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 139: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 140: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 141: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 142: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 143: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 144: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 145: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 146: Best fitness = 4.21701
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 147: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 148: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 149: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 150: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 151: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 152: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 153: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 154: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 155: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 156: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 157: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 158: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 159: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 160: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 161: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 162: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 163: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 164: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 165: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 166: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 167: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 168: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 169: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 170: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 171: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 172: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 173: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 174: Best fitness = 4.20851
+Individual positions: [55 55 55 ] [39 39 55 ] [9 3 74 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 175: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 176: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 177: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 178: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 179: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 180: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 181: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 182: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 183: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 184: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 185: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 186: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 187: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 188: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 189: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 190: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 191: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 192: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 193: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 194: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 195: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 196: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 197: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 198: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 199: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 200: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 201: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 202: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 203: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 204: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 205: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 206: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 207: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 208: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 209: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 210: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 211: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 212: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 213: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 214: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 90 90 36 66 
+Generation 215: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 216: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 217: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 218: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 219: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 220: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 221: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 222: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 223: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 224: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 225: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 226: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 227: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 228: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 229: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 230: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 231: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 232: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 233: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 234: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 235: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 236: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 237: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 238: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 239: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 240: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 241: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 242: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 243: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 244: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 245: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 246: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 247: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 248: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 249: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 250: Best fitness = 3.12558
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1266.34 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 251: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 252: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 253: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 254: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 255: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 256: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 257: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 258: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 259: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 260: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 261: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 262: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 263: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 264: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 265: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 266: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 267: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 268: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 269: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 270: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 271: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 272: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 273: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 274: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 275: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 276: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 277: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 278: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 279: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 280: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 281: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 282: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 283: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 284: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 285: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 286: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 287: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 288: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 289: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 290: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 291: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 292: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 293: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 294: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 295: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 73 36 66 
+Generation 296: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 297: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 298: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 
+Generation 299: Best fitness = 3.11593
+Individual positions: [55 55 55 ] [39 39 55 ] [3 3 55 ] [97 99 44 ] 
+Individual candel values: 1264.69 1264.69 528.581 424.207 
+Individual angle values: 73 90 36 66 

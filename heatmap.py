@@ -103,13 +103,15 @@ def main() -> None:
         print(f'{i}: {x}, {y}, {z}, {I}')
         E = create_light_heatmap(x, y, z, I)
     """
-    x, y, z, I, alpha = get_light_sources_from_file(f'results/ga2_exp001_1.txt')
-    E = create_light_heatmap(x, y, z, I, alpha,
+    E = create_light_heatmap([20, 80], [20, 80], [50, 50], [1000, 1000], [90, 90],
                              size=10, x_range=(0, 99), y_range=(0, 99),
                              show_values=True, fmt="{:.3f}", fontsize=10)
-    E = create_light_heatmap([50], [50], [50], [1000], [90],
-                             size=10, x_range=(0, 99), y_range=(0, 99),
-                             show_values=True, fmt="{:.3f}", fontsize=10)
+    for i in range(1, 5):
+        x, y, z, I, alpha = get_light_sources_from_file(f'results/v4/ga4_exp013_{i}.txt')
+        E = create_light_heatmap(x, y, z, I, alpha,
+                                size=10, x_range=(0, 99), y_range=(0, 99),
+                                show_values=True, fmt="{:.3f}", fontsize=10)
+    
     # E1 = create_light_heatmap([38, 38, 46, 46, 3, 3], [46, 3, 38, 3, 38, 46], [3, 46, 3, 38, 46, 38], [9535, 6448, 13154, 3726, 13138, 19226], [74, 89, 15, 85, 11, 79],
     #                          size=10, x_range=(0, 99), y_range=(0, 99),
     #                          show_values=True, fmt="{:.3f}", fontsize=10)

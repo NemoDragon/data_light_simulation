@@ -70,7 +70,7 @@ def compute_illuminance(x_list: list[int], y_list: list[int], z_list: list[int],
 
 
 def main() -> None:
-    gen_data = get_light_sources_from_file(f'results/ga_exp014_1.txt')
+    gen_data = get_light_sources_from_file(f'results/v4/ga4_exp016_4.txt')
     if not gen_data:
         print("No generation data found.")
         return
@@ -134,13 +134,13 @@ def main() -> None:
                 text_grid[i][j].set_text(fmt.format(E[i, j]))
 
         # update title with current generation info
-        title = f'Illuminance heatmap (gen {k}, fitness: {fitness:.2f}):\n'
+        title = f'Illuminance heatmap best individual (gen {k}, fitness: {fitness:.2f}):\n'
         for idx in range(len(I)):
             title += f'I{idx + 1} = {I[idx]} cd α{idx + 1}={alpha[idx]}° [{x[idx]}, {y[idx]}, {z[idx]}]\n'
         ax.set_title(title)
 
         fig.canvas.draw_idle()
-        plt.pause(0.5)  # delay between frames
+        plt.pause(0.2)  # delay between frames
 
     plt.ioff()
     plt.show()
