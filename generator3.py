@@ -137,7 +137,7 @@ def main() -> None:
 
     # Experiment 018 - four lights at the corners at (0,0,20), (0,99,20), (99,0,20), (99,99,20), 1000 candels each, 60 degrees
     pos018, lux018 = gen_measurements(light_positions=[(0, 0, 20), (0, 99, 20), (99, 0, 20), (99, 99, 20)],
-                                light_candels=[1000 for i in range(4)], light_angles=[60 for i in range(4)])
+                                light_candels=[1000 for i in range(4)], light_angles=[45 for i in range(4)])
     save_measurements_to_file('measurements/exp018.txt', pos018, lux018)
 
 if __name__ == '__main__':
