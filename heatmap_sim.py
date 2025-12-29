@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 def get_light_sources_from_file(file_name: str):
     with open(file_name) as file:
-        generation_lines = file.readlines()[13:]
+        generation_lines = file.readlines()[14:]
         generation_data = {}
         for i in range(0, len(generation_lines), 4):
             gen_text, pos, I, alpha = generation_lines[i], generation_lines[i+1], generation_lines[i+2], generation_lines[i+3]
@@ -70,7 +70,7 @@ def compute_illuminance(x_list: list[int], y_list: list[int], z_list: list[int],
 
 
 def main() -> None:
-    gen_data = get_light_sources_from_file(f'results/v4/ga4_exp016_4.txt')
+    gen_data = get_light_sources_from_file(f'results/v4/ga4_exp013_4.txt')
     if not gen_data:
         print("No generation data found.")
         return
@@ -95,7 +95,7 @@ def main() -> None:
     im = ax.imshow(E, origin='lower',
                    extent=(x_range[0], x_range[1], y_range[0], y_range[1]),
                    interpolation='nearest', aspect='auto')
-    scatter = ax.scatter(x, y, c='red', s=60, marker='x', label='light sources', zorder=3)
+    scatter = ax.scatter(x, y, c='red', s=100, marker='o', label='light sources', zorder=3)
     cbar = fig.colorbar(im)
     cbar.set_label('Illuminance (arb. units)')
     ax.set_xlabel('x')

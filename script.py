@@ -13,18 +13,23 @@ def read_file(file_name: str):
 
 
 def main() -> None:
-    fitness = read_file(f'results/ga_exp014_1.txt')
-    print(fitness)
+    # Loop through experiments 001-018 and read from files
+    for i in range(1, 19):
+        exp_num = f'{i:03d}'
+        
+        fitness = read_file(f'results/v4/ga4_exp{exp_num}_1.txt')
+        print(fitness)
+        print(f'Processing results/v4/ga4_exp{exp_num}_1.txt')
 
-    fig = plt.figure()
-    ax = fig.add_subplot(1, 1, 1)
-    gen = [i for i in range(len(fitness))]
-    ax.plot(gen, fitness)
-    ax.set_xlabel("Generation")
-    ax.set_ylabel("Fitness")
-    # ax.set_yscale("log")
-    ax.set_title(f" Best individual fitness function value over generations: GA exp014")
-    plt.show()
+        fig = plt.figure()
+        ax = fig.add_subplot(1, 1, 1)
+        gen = [i for i in range(len(fitness))]
+        ax.plot(gen, fitness)
+        ax.set_xlabel("Epoka")
+        ax.set_ylabel("Dopasowanie najlepszego osobnika")
+        # ax.set_yscale("log")
+        ax.set_title(f"Wartość funkcji dopasowania najlepszego osobnika w zależności od epoki")
+        plt.show()
 
 if __name__ == "__main__":
     main()
