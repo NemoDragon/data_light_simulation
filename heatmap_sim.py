@@ -3,8 +3,11 @@ import numpy as np
 import math
 import matplotlib
 from matplotlib import patheffects
+import os
+from PIL import Image
+import io
 
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')  # Use non-interactive backend for saving
 import matplotlib.pyplot as plt
 
 def get_light_sources_from_file(file_name: str):
@@ -70,7 +73,7 @@ def compute_illuminance(x_list: list[int], y_list: list[int], z_list: list[int],
 
 
 def main() -> None:
-    gen_data = get_light_sources_from_file(f'results/v4/ga4_exp013_4.txt')
+    gen_data = get_light_sources_from_file(f'results/v4/ga4_exp016_1.txt')
     if not gen_data:
         print("No generation data found.")
         return
@@ -84,66 +87,65 @@ def main() -> None:
     fmt = "{:.3f}"
     fontsize = 8
 
-    plt.ion()
-    fig, ax = plt.subplots(figsize=(8, 7))
+    # List to store frames
+    frames = []
 
-    # initial frame from first generation
-    first = gen_data[keys[0]]
-    x, y, z, I, alpha, fitness = first
-    E, x_centers, y_centers = compute_illuminance(x, y, z, I, alpha, size=size, x_range=x_range, y_range=y_range)
-
-    im = ax.imshow(E, origin='lower',
-                   extent=(x_range[0], x_range[1], y_range[0], y_range[1]),
-                   interpolation='nearest', aspect='auto')
-    scatter = ax.scatter(x, y, c='red', s=100, marker='o', label='light sources', zorder=3)
-    cbar = fig.colorbar(im)
-    cbar.set_label('Illuminance (arb. units)')
-    ax.set_xlabel('x')
-    ax.set_ylabel('y')
-
-    # create text labels once and update text contents each frame
-    text_grid = []
-    for i in range(size):
-        row = []
-        for j in range(size):
-            t = ax.text(x_centers[j], y_centers[i], fmt.format(E[i, j]),
-                        color='white', ha='center', va='center',
-                        fontsize=fontsize, zorder=4, clip_on=False,
-                        path_effects=[patheffects.withStroke(linewidth=1, foreground='black')])
-            row.append(t)
-        text_grid.append(row)
-
-    # animate through generations
+    # Generate frames for each generation
     for k in keys:
         x, y, z, I, alpha, fitness = gen_data[k]
         print(f'{k}: {x}, {y}, {z}, {I}, {alpha}, {fitness}')
         E, x_centers, y_centers = compute_illuminance(x, y, z, I, alpha, size=size, x_range=x_range, y_range=y_range)
 
-        im.set_data(E)
-        # update color limits to reflect new data range
-        vmin, vmax = np.nanmin(E), np.nanmax(E)
-        if vmin == vmax:
-            vmax = vmin + 1e-6
-        im.set_clim(vmin, vmax)
-        # update scatter (positions may change between generations)
-        scatter.set_offsets(np.c_[x, y])
+        # Create a fresh figure for each frame
+        fig, ax = plt.subplots(figsize=(8, 7))
+        
+        # Create heatmap
+        im = ax.imshow(E, origin='lower',
+                       extent=(x_range[0], x_range[1], y_range[0], y_range[1]),
+                       interpolation='nearest', aspect='auto')
+        
+        # Add scatter plot for light sources
+        ax.scatter(x, y, c='red', s=100, marker='o', label='light sources', zorder=3)
+        
+        # Add colorbar
+        cbar = fig.colorbar(im)
+        cbar.set_label('Illuminance (arb. units)')
+        ax.set_xlabel('x')
+        ax.set_ylabel('y')
 
-        # update texts
+        # Add text labels for each cell
         for i in range(size):
             for j in range(size):
-                text_grid[i][j].set_text(fmt.format(E[i, j]))
+                ax.text(x_centers[j], y_centers[i], fmt.format(E[i, j]),
+                        color='white', ha='center', va='center',
+                        fontsize=fontsize, zorder=4, clip_on=False,
+                        path_effects=[patheffects.withStroke(linewidth=1, foreground='black')])
 
-        # update title with current generation info
+        # Set title with current generation info
         title = f'Illuminance heatmap best individual (gen {k}, fitness: {fitness:.2f}):\n'
         for idx in range(len(I)):
             title += f'I{idx + 1} = {I[idx]} cd α{idx + 1}={alpha[idx]}° [{x[idx]}, {y[idx]}, {z[idx]}]\n'
         ax.set_title(title)
 
-        fig.canvas.draw_idle()
-        plt.pause(0.2)  # delay between frames
+        # Save current frame to buffer
+        buf = io.BytesIO()
+        plt.savefig(buf, format='png', dpi=100, bbox_inches='tight')
+        buf.seek(0)
+        frames.append(Image.open(buf).copy())
+        buf.close()
+        
+        # Close the figure to free memory
+        plt.close(fig)
 
-    plt.ioff()
-    plt.show()
+    # Create output directory if it doesn't exist
+    os.makedirs('heatmaps/v5', exist_ok=True)
+    
+    # Save as GIF with disposal mode 2 (clear previous frame before rendering next)
+    output_path = 'heatmaps/v5/heatmap_animation.gif'
+    frames[0].save(output_path, save_all=True, append_images=frames[1:], 
+                   duration=200, loop=0, optimize=False, disposal=2)
+    
+    print(f"GIF saved to {output_path}")
 
 
 if __name__ == '__main__':
